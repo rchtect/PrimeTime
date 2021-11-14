@@ -2,7 +2,7 @@ function isPrime() {
   let text;
   let num = prompt("Please enter a number");
   let choice = num;
-  if (num == null || num == "" || isNaN(num) == true) {
+  if (num == null || num == "" || isNaN(num) == true || num == " ") {
     text = "An error occured, try to type a number.";
   } else {
     answer = "is a prime number.";
